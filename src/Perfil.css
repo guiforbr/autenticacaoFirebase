@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    background: #23232e;
+    height: 5vh;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 25pt;
+}
+
+body{
+    background:linear-gradient(to right, #23232e, #000080c5, #23232e );
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundImage{    
+margin-top: 1vh;
+}
+
+.backgroundImage img{
+    height: 30vh;
+    position: relative;
+    border-radius: 50%;
+    border: 1px Outset #000080;
+}
+
+.backgroundImage h2{
+    margin-top: 1vh;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuHidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu{
+    position: absolute;
+    margin-top: 45vh;
+    align-items: center;
+}
+
+.menu h3:hover{
+    cursor: pointer;
+    background: #000080;
+}
+
+.menu h3{
+    padding: 0.75vw;
+    background: #2323fe;
+    border-radius: 25px;
+}
+.down-arrow{
+    height: 1.75vh;
+}
+
+.menu ul{
+    margin-top: 5px;
+    background: #fff;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+}
+
+.menu li{
+    list-style: none;   
+    padding: 0.5vw; 
+    margin-left: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.menu ul li a {
+    display: block; /* Torna o link clicável em toda a área do <li> */
+}
+
+
+.Whatsapp{
+    color: green;
+}
+
+.github{
+    color: #4078c0;
+}
+
+.linkedin{
+    color: #0077B5;
+}
+
+.email{
+    color: #DB4437;
+}
+
+.menu ul li:hover{
+    background: #000080;
+    margin-left: 0;
+    border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+

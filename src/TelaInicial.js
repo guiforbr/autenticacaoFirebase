@@ -10,6 +10,7 @@ import google from './google.png';
 const firebaseConfig = {
   apiKey: "AIzaSyA8cInf22LuBYsEUpmd4Sm52TtpRlPQCas",
   authDomain: "fir-auth-react-78e00.firebaseapp.com",
+  databaseURL: "https://fir-auth-react-78e00-default-rtdb.firebaseio.com/",
   projectId: "fir-auth-react-78e00",
   storageBucket: "fir-auth-react-78e00.appspot.com",
   messagingSenderId: "230380253031",
