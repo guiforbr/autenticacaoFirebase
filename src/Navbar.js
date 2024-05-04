@@ -6,10 +6,11 @@ function Navbar() {
     
   return (
     <nav className="navbar">
-      <h1>Minha Aplicação</h1>
       <div className="links">
-        <Link to="/lista">Lista de Tarefas</Link>
-        <Link to="/perfil">Perfil</Link>
+        <ul>
+          <li><Link to="/lista">Lista de Tarefas</Link></li>
+          <li><Link to="/perfil">Perfil</Link></li>
+        </ul>        
       </div>
     </nav>
   );

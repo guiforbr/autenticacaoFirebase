@@ -12,20 +12,23 @@
     float: left;
   }
   
-  .navbar .links {
+  .navbar .links ul{
     float: right;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
   }
   
-  .navbar .links a {
-    font-size: small;
+  .navbar .links li {
+    margin-right: 50px;
     color: white;
     text-decoration: none;
-    padding: 5px;
-}
+  }
+
+  .navbar .links a{
+    font-size: 15pt;
+  }
   
-  .navbar .links a:hover {
+  .navbar .links ul li:hover {
     background-color: #ddd;
     color: black;
   }

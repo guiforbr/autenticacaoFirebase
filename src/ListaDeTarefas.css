@@ -4,6 +4,10 @@
     font-family: Arial, sans-serif;
     position: relative;
   }
+
+  .lista-de-tarefas h1{
+    color: inherit;
+  }
   
   .botao-flutuante {
     position: fixed;
@@ -31,6 +35,7 @@
   }
   
   .adicionar-tarefa input {
+    color: black;
     padding: 8px;
     margin-right: 10px;
     border: 1px solid #ccc;
@@ -63,6 +68,10 @@
     transition: transform 0.3s ease; /* Efeito de transição suave para a exclusão */
   }
   
+  .tarefa div{
+    color: black;
+  }
+  
   .tarefa:hover {
     transform: translateX(-20px); /* Desliza a tarefa para a esquerda quando o mouse passa por cima */
   }
@@ -77,7 +86,6 @@
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    color: #fff;
     background-color: #dc3545;
     padding: 8px 16px;
     border-radius: 4px;
